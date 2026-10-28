@@ -28,8 +28,32 @@ npm install -g allure-commandline
 
 ## How to run the tests
 
-// TODO - It's part of your task to add the appropriate instructions here. 
+npx playwright test
+
+Run tests in Playwright UI mode:
+
+npx playwright test --ui
+
+Run a specific test file:
+
+npx playwright test path/to/test.spec.js
+
+For example:
+
+npx playwright test tests/account/billPay/billPay.spec.js
 
 ## How to generate report
 
-// TODO - It's part of your task to add the appropriate instructions here. 
+npx playwright test
+
+Run tests in Playwright UI mode:
+
+npx playwright test --ui
+
+Run a specific test file:
+
+npx playwright test path/to/test.spec.js
+
+For example:
+
+npx playwright test tests/account/billPay/billPay.spec.js

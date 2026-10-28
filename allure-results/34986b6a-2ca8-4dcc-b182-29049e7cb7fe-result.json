@@ -1,0 +1,1037 @@
+{
+  "uuid": "34986b6a-2ca8-4dcc-b182-29049e7cb7fe",
+  "name": "User can transfer amount greater than available balance",
+  "historyId": "715628dbecfb2b7c669dc0f2df135f20:5bd835b0d6b1d4ada3b9f0db936e82c8",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "fixture: infoTestLog",
+              "start": 1792964797083,
+              "stop": 1792964797084
+            },
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "fixture: addAllureTestHierarchy",
+              "start": 1792964797085,
+              "stop": 1792964797106
+            },
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [
+                {
+                  "status": "passed",
+                  "statusDetails": {},
+                  "stage": "finished",
+                  "steps": [],
+                  "attachments": [],
+                  "parameters": [],
+                  "name": "browser.newContext",
+                  "start": 1792964797115,
+                  "stop": 1792964797132
+                },
+                {
+                  "status": "passed",
+                  "statusDetails": {},
+                  "stage": "finished",
+                  "steps": [],
+                  "attachments": [],
+                  "parameters": [],
+                  "name": "browserContext.newPage",
+                  "start": 1792964797156,
+                  "stop": 1792964797362
+                }
+              ],
+              "attachments": [],
+              "parameters": [],
+              "name": "fixture: pages",
+              "start": 1792964797113,
+              "stop": 1792964797363
+            },
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "fixture: user",
+              "start": 1792964797365,
+              "stop": 1792964797367
+            },
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [
+                {
+                  "status": "passed",
+                  "statusDetails": {},
+                  "stage": "finished",
+                  "steps": [
+                    {
+                      "status": "passed",
+                      "statusDetails": {},
+                      "stage": "finished",
+                      "steps": [],
+                      "attachments": [],
+                      "parameters": [],
+                      "name": "page.goto(register.htm)",
+                      "start": 1792964797383,
+                      "stop": 1792964798784
+                    }
+                  ],
+                  "attachments": [],
+                  "parameters": [],
+                  "name": "Open 'Register' page",
+                  "start": 1792964797375,
+                  "stop": 1792964798788
+                },
+                {
+                  "status": "passed",
+                  "statusDetails": {},
+                  "stage": "finished",
+                  "steps": [
+                    {
+                      "status": "passed",
+                      "statusDetails": {},
+                      "stage": "finished",
+                      "steps": [],
+                      "attachments": [],
+                      "parameters": [],
+                      "name": "locator.fill([id=\"customer.firstName\"])",
+                      "start": 1792964798801,
+                      "stop": 1792964798914
+                    }
+                  ],
+                  "attachments": [],
+                  "parameters": [],
+                  "name": "Fill the 'First Name' field",
+                  "start": 1792964798792,
+                  "stop": 1792964798916
+                },
+                {
+                  "status": "passed",
+                  "statusDetails": {},
+                  "stage": "finished",
+                  "steps": [
+                    {
+                      "status": "passed",
+                      "statusDetails": {},
+                      "stage": "finished",
+                      "steps": [],
+                      "attachments": [],
+                      "parameters": [],
+                      "name": "locator.fill([id=\"customer.lastName\"])",
+                      "start": 1792964798929,
+                      "stop": 1792964799015
+                    }
+                  ],
+                  "attachments": [],
+                  "parameters": [],
+                  "name": "Fill the 'Last Name' field",
+                  "start": 1792964798922,
+                  "stop": 1792964799016
+                },
+                {
+                  "status": "passed",
+                  "statusDetails": {},
+                  "stage": "finished",
+                  "steps": [
+                    {
+                      "status": "passed",
+                      "statusDetails": {},
+                      "stage": "finished",
+                      "steps": [],
+                      "attachments": [],
+                      "parameters": [],
+                      "name": "locator.fill([id=\"customer.address.street\"])",
+                      "start": 1792964799028,
+                      "stop": 1792964799110
+                    }
+                  ],
+                  "attachments": [],
+                  "parameters": [],
+                  "name": "Fill the 'Address' field",
+                  "start": 1792964799020,
+                  "stop": 1792964799111
+                },
+                {
+                  "status": "passed",
+                  "statusDetails": {},
+                  "stage": "finished",
+                  "steps": [
+                    {
+                      "status": "passed",
+                      "statusDetails": {},
+                      "stage": "finished",
+                      "steps": [],
+                      "attachments": [],
+                      "parameters": [],
+                      "name": "locator.fill([id=\"customer.address.city\"])",
+                      "start": 1792964799126,
+                      "stop": 1792964799211
+                    }
+                  ],
+                  "attachments": [],
+                  "parameters": [],
+                  "name": "Fill the 'City' field",
+                  "start": 1792964799116,
+                  "stop": 1792964799211
+                },
+                {
+                  "status": "passed",
+                  "statusDetails": {},
+                  "stage": "finished",
+                  "steps": [
+                    {
+                      "status": "passed",
+                      "statusDetails": {},
+                      "stage": "finished",
+                      "steps": [],
+                      "attachments": [],
+                      "parameters": [],
+                      "name": "locator.fill([id=\"customer.address.state\"])",
+                      "start": 1792964799221,
+                      "stop": 1792964799293
+                    }
+                  ],
+                  "attachments": [],
+                  "parameters": [],
+                  "name": "Fill the 'State' field",
+                  "start": 1792964799214,
+                  "stop": 1792964799294
+                },
+                {
+                  "status": "passed",
+                  "statusDetails": {},
+                  "stage": "finished",
+                  "steps": [
+                    {
+                      "status": "passed",
+                      "statusDetails": {},
+                      "stage": "finished",
+                      "steps": [],
+                      "attachments": [],
+                      "parameters": [],
+                      "name": "locator.fill([id=\"customer.address.zipCode\"])",
+                      "start": 1792964799304,
+                      "stop": 1792964799369
+                    }
+                  ],
+                  "attachments": [],
+                  "parameters": [],
+                  "name": "Fill the 'Zip Code' field",
+                  "start": 1792964799297,
+                  "stop": 1792964799369
+                },
+                {
+                  "status": "passed",
+                  "statusDetails": {},
+                  "stage": "finished",
+                  "steps": [
+                    {
+                      "status": "passed",
+                      "statusDetails": {},
+                      "stage": "finished",
+                      "steps": [],
+                      "attachments": [],
+                      "parameters": [],
+                      "name": "locator.fill([id=\"customer.phoneNumber\"])",
+                      "start": 1792964799383,
+                      "stop": 1792964799449
+                    }
+                  ],
+                  "attachments": [],
+                  "parameters": [],
+                  "name": "Fill the 'Phone' field",
+                  "start": 1792964799372,
+                  "stop": 1792964799450
+                },
+                {
+                  "status": "passed",
+                  "statusDetails": {},
+                  "stage": "finished",
+                  "steps": [
+                    {
+                      "status": "passed",
+                      "statusDetails": {},
+                      "stage": "finished",
+                      "steps": [],
+                      "attachments": [],
+                      "parameters": [],
+                      "name": "locator.fill([id=\"customer.ssn\"])",
+                      "start": 1792964799462,
+                      "stop": 1792964799544
+                    }
+                  ],
+                  "attachments": [],
+                  "parameters": [],
+                  "name": "Fill the 'SSN' field",
+                  "start": 1792964799454,
+                  "stop": 1792964799545
+                },
+                {
+                  "status": "passed",
+                  "statusDetails": {},
+                  "stage": "finished",
+                  "steps": [
+                    {
+                      "status": "passed",
+                      "statusDetails": {},
+                      "stage": "finished",
+                      "steps": [],
+                      "attachments": [],
+                      "parameters": [],
+                      "name": "locator.fill([id=\"customer.username\"])",
+                      "start": 1792964799554,
+                      "stop": 1792964799630
+                    }
+                  ],
+                  "attachments": [],
+                  "parameters": [],
+                  "name": "Fill the 'Username' field",
+                  "start": 1792964799547,
+                  "stop": 1792964799631
+                },
+                {
+                  "status": "passed",
+                  "statusDetails": {},
+                  "stage": "finished",
+                  "steps": [
+                    {
+                      "status": "passed",
+                      "statusDetails": {},
+                      "stage": "finished",
+                      "steps": [],
+                      "attachments": [],
+                      "parameters": [],
+                      "name": "locator.fill([id=\"customer.password\"])",
+                      "start": 1792964799646,
+                      "stop": 1792964799712
+                    }
+                  ],
+                  "attachments": [],
+                  "parameters": [],
+                  "name": "Fill the 'Password' field",
+                  "start": 1792964799635,
+                  "stop": 1792964799712
+                },
+                {
+                  "status": "passed",
+                  "statusDetails": {},
+                  "stage": "finished",
+                  "steps": [
+                    {
+                      "status": "passed",
+                      "statusDetails": {},
+                      "stage": "finished",
+                      "steps": [],
+                      "attachments": [],
+                      "parameters": [],
+                      "name": "locator.fill([id=\"repeatedPassword\"])",
+                      "start": 1792964799727,
+                      "stop": 1792964799784
+                    }
+                  ],
+                  "attachments": [],
+                  "parameters": [],
+                  "name": "Fill the 'Confirm' field",
+                  "start": 1792964799714,
+                  "stop": 1792964799784
+                },
+                {
+                  "status": "passed",
+                  "statusDetails": {},
+                  "stage": "finished",
+                  "steps": [
+                    {
+                      "status": "passed",
+                      "statusDetails": {},
+                      "stage": "finished",
+                      "steps": [],
+                      "attachments": [],
+                      "parameters": [],
+                      "name": "locator.getByRole('button', { name: 'Register' }).click",
+                      "start": 1792964799796,
+                      "stop": 1792964800197
+                    }
+                  ],
+                  "attachments": [],
+                  "parameters": [],
+                  "name": "Click the 'Register' button",
+                  "start": 1792964799787,
+                  "stop": 1792964800197
+                },
+                {
+                  "status": "passed",
+                  "statusDetails": {},
+                  "stage": "finished",
+                  "steps": [
+                    {
+                      "status": "passed",
+                      "statusDetails": {},
+                      "stage": "finished",
+                      "steps": [],
+                      "attachments": [],
+                      "parameters": [],
+                      "name": "expect.toBeVisible",
+                      "start": 1792964800207,
+                      "stop": 1792964800459
+                    }
+                  ],
+                  "attachments": [],
+                  "parameters": [],
+                  "name": "Assert registration success message is visible",
+                  "start": 1792964800201,
+                  "stop": 1792964800461
+                }
+              ],
+              "attachments": [],
+              "parameters": [],
+              "name": "Register user",
+              "start": 1792964797370,
+              "stop": 1792964800462
+            },
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [
+                {
+                  "status": "passed",
+                  "statusDetails": {},
+                  "stage": "finished",
+                  "steps": [
+                    {
+                      "status": "passed",
+                      "statusDetails": {},
+                      "stage": "finished",
+                      "steps": [],
+                      "attachments": [],
+                      "parameters": [],
+                      "name": "locator.getByRole('link', { name: 'Open New Account' }).click",
+                      "start": 1792964800486,
+                      "stop": 1792964800990
+                    }
+                  ],
+                  "attachments": [],
+                  "parameters": [],
+                  "name": "Click 'Open New Account' link",
+                  "start": 1792964800472,
+                  "stop": 1792964800993
+                },
+                {
+                  "status": "passed",
+                  "statusDetails": {},
+                  "stage": "finished",
+                  "steps": [
+                    {
+                      "status": "passed",
+                      "statusDetails": {},
+                      "stage": "finished",
+                      "steps": [],
+                      "attachments": [],
+                      "parameters": [],
+                      "name": "expect.toBeVisible",
+                      "start": 1792964801016,
+                      "stop": 1792964801122
+                    }
+                  ],
+                  "attachments": [],
+                  "parameters": [],
+                  "name": "Assert 'Open New Account' title is visible",
+                  "start": 1792964800999,
+                  "stop": 1792964801124
+                },
+                {
+                  "status": "passed",
+                  "statusDetails": {},
+                  "stage": "finished",
+                  "steps": [
+                    {
+                      "status": "passed",
+                      "statusDetails": {},
+                      "stage": "finished",
+                      "steps": [],
+                      "attachments": [],
+                      "parameters": [],
+                      "name": "expect.toBeVisible",
+                      "start": 1792964801140,
+                      "stop": 1792964801189
+                    },
+                    {
+                      "status": "passed",
+                      "statusDetails": {},
+                      "stage": "finished",
+                      "steps": [],
+                      "attachments": [],
+                      "parameters": [],
+                      "name": "expect.not.toHaveCount",
+                      "start": 1792964801197,
+                      "stop": 1792964801366
+                    }
+                  ],
+                  "attachments": [],
+                  "parameters": [],
+                  "name": "Assert source account is available",
+                  "start": 1792964801129,
+                  "stop": 1792964801367
+                },
+                {
+                  "status": "passed",
+                  "statusDetails": {},
+                  "stage": "finished",
+                  "steps": [
+                    {
+                      "status": "passed",
+                      "statusDetails": {},
+                      "stage": "finished",
+                      "steps": [],
+                      "attachments": [],
+                      "parameters": [],
+                      "name": "locator.selectOption(#type)",
+                      "start": 1792964801379,
+                      "stop": 1792964801445
+                    }
+                  ],
+                  "attachments": [],
+                  "parameters": [],
+                  "name": "Select account type 'CHECKING'",
+                  "start": 1792964801370,
+                  "stop": 1792964801445
+                },
+                {
+                  "status": "passed",
+                  "statusDetails": {},
+                  "stage": "finished",
+                  "steps": [
+                    {
+                      "status": "passed",
+                      "statusDetails": {},
+                      "stage": "finished",
+                      "steps": [],
+                      "attachments": [],
+                      "parameters": [],
+                      "name": "locator.getByRole('button', { name: 'Open New Account' }).click",
+                      "start": 1792964801457,
+                      "stop": 1792964801603
+                    }
+                  ],
+                  "attachments": [],
+                  "parameters": [],
+                  "name": "Click 'Open New Account' button",
+                  "start": 1792964801449,
+                  "stop": 1792964801607
+                },
+                {
+                  "status": "passed",
+                  "statusDetails": {},
+                  "stage": "finished",
+                  "steps": [
+                    {
+                      "status": "passed",
+                      "statusDetails": {},
+                      "stage": "finished",
+                      "steps": [],
+                      "attachments": [],
+                      "parameters": [],
+                      "name": "expect.toBeVisible",
+                      "start": 1792964801635,
+                      "stop": 1792964802081
+                    },
+                    {
+                      "status": "passed",
+                      "statusDetails": {},
+                      "stage": "finished",
+                      "steps": [],
+                      "attachments": [],
+                      "parameters": [],
+                      "name": "expect.toBeVisible",
+                      "start": 1792964802088,
+                      "stop": 1792964802132
+                    },
+                    {
+                      "status": "passed",
+                      "statusDetails": {},
+                      "stage": "finished",
+                      "steps": [],
+                      "attachments": [],
+                      "parameters": [],
+                      "name": "expect.toBeVisible",
+                      "start": 1792964802139,
+                      "stop": 1792964802173
+                    }
+                  ],
+                  "attachments": [],
+                  "parameters": [],
+                  "name": "Assert account was opened successfully",
+                  "start": 1792964801613,
+                  "stop": 1792964802174
+                },
+                {
+                  "status": "passed",
+                  "statusDetails": {},
+                  "stage": "finished",
+                  "steps": [
+                    {
+                      "status": "passed",
+                      "statusDetails": {},
+                      "stage": "finished",
+                      "steps": [],
+                      "attachments": [],
+                      "parameters": [],
+                      "name": "locator.textContent(#newAccountId)",
+                      "start": 1792964802189,
+                      "stop": 1792964802223
+                    }
+                  ],
+                  "attachments": [],
+                  "parameters": [],
+                  "name": "Get new account number",
+                  "start": 1792964802177,
+                  "stop": 1792964802223
+                }
+              ],
+              "attachments": [],
+              "parameters": [],
+              "name": "Open new CHECKING account",
+              "start": 1792964800467,
+              "stop": 1792964802223
+            },
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [
+                {
+                  "status": "passed",
+                  "statusDetails": {},
+                  "stage": "finished",
+                  "steps": [],
+                  "attachments": [],
+                  "parameters": [],
+                  "name": "locator.getByRole('link', { name: 'Transfer Funds' }).click",
+                  "start": 1792964802236,
+                  "stop": 1792964802746
+                }
+              ],
+              "attachments": [],
+              "parameters": [],
+              "name": "Click 'Transfer Funds' link",
+              "start": 1792964802227,
+              "stop": 1792964802750
+            },
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [
+                {
+                  "status": "passed",
+                  "statusDetails": {},
+                  "stage": "finished",
+                  "steps": [],
+                  "attachments": [],
+                  "parameters": [],
+                  "name": "expect.toBeVisible",
+                  "start": 1792964802764,
+                  "stop": 1792964802851
+                }
+              ],
+              "attachments": [],
+              "parameters": [],
+              "name": "Assert 'Transfer Funds' title is visible",
+              "start": 1792964802754,
+              "stop": 1792964802852
+            },
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [
+                {
+                  "status": "passed",
+                  "statusDetails": {},
+                  "stage": "finished",
+                  "steps": [],
+                  "attachments": [],
+                  "parameters": [],
+                  "name": "expect.toHaveCount",
+                  "start": 1792964802864,
+                  "stop": 1792964803031
+                },
+                {
+                  "status": "passed",
+                  "statusDetails": {},
+                  "stage": "finished",
+                  "steps": [],
+                  "attachments": [],
+                  "parameters": [],
+                  "name": "expect.toHaveCount",
+                  "start": 1792964803038,
+                  "stop": 1792964803079
+                }
+              ],
+              "attachments": [],
+              "parameters": [],
+              "name": "Assert at least two accounts are available",
+              "start": 1792964802856,
+              "stop": 1792964803080
+            },
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [
+                {
+                  "status": "passed",
+                  "statusDetails": {},
+                  "stage": "finished",
+                  "steps": [],
+                  "attachments": [],
+                  "parameters": [],
+                  "name": "locator.evaluateAll(#fromAccountId >> option)",
+                  "start": 1792964803090,
+                  "stop": 1792964803167
+                }
+              ],
+              "attachments": [],
+              "parameters": [],
+              "name": "Get account IDs",
+              "start": 1792964803083,
+              "stop": 1792964803168
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "beforeEach hook",
+          "start": 1792964797074,
+          "stop": 1792964803169
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1792964797073,
+      "stop": 1792964803169
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1792964803176,
+          "name": "locator.fill(#amount)",
+          "stop": 1792964803279
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1792964803171,
+      "name": "Fill transfer amount '1000'",
+      "stop": 1792964803279
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1792964803316,
+          "name": "locator.selectOption(#fromAccountId)",
+          "stop": 1792964803403
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1792964803288,
+      "name": "Select from account '26220'",
+      "stop": 1792964803403
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1792964803413,
+          "name": "locator.selectOption(#toAccountId)",
+          "stop": 1792964803482
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1792964803407,
+      "name": "Select to account '26331'",
+      "stop": 1792964803482
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1792964803493,
+          "name": "locator.getByRole('button', { name: 'Transfer' }).click",
+          "stop": 1792964803620
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1792964803486,
+      "name": "Click 'Transfer' button",
+      "stop": 1792964803621
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1792964803628,
+          "name": "expect.toBeVisible",
+          "stop": 1792964804072
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1792964803622,
+      "name": "Assert transfer was completed successfully",
+      "stop": 1792964804073
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1792964804083,
+          "name": "expect.toHaveText",
+          "stop": 1792964804124
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1792964804075,
+      "name": "Assert transferred amount is '$1000.00'",
+      "stop": 1792964804125
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1792964804132,
+          "name": "expect.toHaveText",
+          "stop": 1792964804164
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1792964804127,
+      "name": "Assert from account is '26220'",
+      "stop": 1792964804165
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1792964804173,
+          "name": "expect.toHaveText",
+          "stop": 1792964804205
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1792964804167,
+      "name": "Assert to account is '26331'",
+      "stop": 1792964804206
+    },
+    {
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "trace",
+          "source": "a6b5f5e2-bba7-4fc4-9916-6a7c12d3b49d-attachment.zip",
+          "type": "application/zip"
+        }
+      ],
+      "parameters": [],
+      "start": 1792964805326,
+      "name": "trace",
+      "stop": 1792964805326
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "fixture: user",
+          "start": 1792964804208,
+          "stop": 1792964804209
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "browserContext.close",
+              "start": 1792964804710,
+              "stop": 1792964804739
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "fixture: pages",
+          "start": 1792964804210,
+          "stop": 1792964804740
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "fixture: addAllureTestHierarchy",
+          "start": 1792964804743,
+          "stop": 1792964804745
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "fixture: infoTestLog",
+          "start": 1792964804747,
+          "stop": 1792964804748
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1792964804207,
+      "stop": 1792964804752
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "chromium" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    {
+      "name": "package",
+      "value": "account.transferFunds.transferFunds.spec.js"
+    },
+    {
+      "name": "titlePath",
+      "value": " > chromium > account\\transferFunds\\transferFunds.spec.js > Transfer Funds tests"
+    },
+    { "name": "host", "value": "DESKTOP-1FMLK3Q" },
+    { "name": "thread", "value": "pid-21240-worker-0" },
+    { "name": "parentSuite" },
+    { "name": "suite" },
+    { "name": "subSuite", "value": "Transfer Funds tests" },
+    { "name": "severity", "value": "normal" }
+  ],
+  "links": [],
+  "start": 1792964797107,
+  "testCaseId": "715628dbecfb2b7c669dc0f2df135f20",
+  "fullName": "account/transferFunds/transferFunds.spec.js:45:7",
+  "stop": 1792964804756
+}

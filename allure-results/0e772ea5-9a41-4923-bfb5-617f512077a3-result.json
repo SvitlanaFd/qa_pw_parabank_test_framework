@@ -1,0 +1,483 @@
+{
+  "uuid": "0e772ea5-9a41-4923-bfb5-617f512077a3",
+  "name": "User cannot recover login information with empty city",
+  "historyId": "f27f67c517c6fb01ce650c1025cb4c45:5bd835b0d6b1d4ada3b9f0db936e82c8",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "fixture: infoTestLog",
+          "start": 1792964897169,
+          "stop": 1792964897169
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "fixture: addAllureTestHierarchy",
+          "start": 1792964897170,
+          "stop": 1792964897189
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "browser.newContext",
+              "start": 1792964897192,
+              "stop": 1792964897210
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "fixture: context",
+          "start": 1792964897190,
+          "stop": 1792964897232
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "browserContext.newPage",
+              "start": 1792964897239,
+              "stop": 1792964897492
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "fixture: page",
+          "start": 1792964897234,
+          "stop": 1792964897495
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "fixture: signInPage",
+          "start": 1792964897501,
+          "stop": 1792964897502
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "fixture: forgotLoginInfoPage",
+          "start": 1792964897510,
+          "stop": 1792964897511
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "fixture: user",
+          "start": 1792964897515,
+          "stop": 1792964897520
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1792964897162,
+      "stop": 1792964897520
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1792964897531,
+          "name": "page.goto(index.htm)",
+          "stop": 1792964899270
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1792964897523,
+      "name": "Open 'Sign In' page",
+      "stop": 1792964899271
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1792964899291,
+          "name": "locator.getByRole('link', { name: 'Forgot login info?' }).click",
+          "stop": 1792964899757
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1792964899277,
+      "name": "Click 'Forgot login info?' link",
+      "stop": 1792964899758
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1792964899767,
+          "name": "locator.fill(#firstName)",
+          "stop": 1792964899995
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1792964899761,
+      "name": "Fill the 'First Name' field",
+      "stop": 1792964899997
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1792964900010,
+          "name": "locator.fill(#lastName)",
+          "stop": 1792964900084
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1792964900004,
+      "name": "Fill the 'Last Name' field",
+      "stop": 1792964900085
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1792964900097,
+          "name": "locator.fill([id=\"address.street\"])",
+          "stop": 1792964900211
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1792964900090,
+      "name": "Fill the 'Address' field",
+      "stop": 1792964900212
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1792964900226,
+          "name": "locator.fill([id=\"address.state\"])",
+          "stop": 1792964900300
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1792964900214,
+      "name": "Fill the 'State' field",
+      "stop": 1792964900301
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1792964900334,
+          "name": "locator.fill([id=\"address.zipCode\"])",
+          "stop": 1792964900412
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1792964900310,
+      "name": "Fill the 'Zip Code' field",
+      "stop": 1792964900413
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1792964900445,
+          "name": "locator.fill(#ssn)",
+          "stop": 1792964900612
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1792964900415,
+      "name": "Fill the 'SSN' field",
+      "stop": 1792964900613
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1792964900653,
+          "name": "locator.getByRole('button', { name: 'Find My Login Info' }).click",
+          "stop": 1792964901324
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1792964900625,
+      "name": "Click 'Find My Login Info' button",
+      "stop": 1792964901328
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1792964901339,
+          "name": "expect.toContainText",
+          "stop": 1792964901430
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1792964901332,
+      "name": "Assert city error",
+      "stop": 1792964901430
+    },
+    {
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "trace",
+          "source": "2eb5a45b-f3d0-4e2e-a9a4-3eaaae50235f-attachment.zip",
+          "type": "application/zip"
+        }
+      ],
+      "parameters": [],
+      "start": 1792964902292,
+      "name": "trace",
+      "stop": 1792964902292
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "fixture: user",
+          "start": 1792964901434,
+          "stop": 1792964901435
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "fixture: forgotLoginInfoPage",
+          "start": 1792964901437,
+          "stop": 1792964901438
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "fixture: signInPage",
+          "start": 1792964901441,
+          "stop": 1792964901441
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "fixture: page",
+          "start": 1792964901443,
+          "stop": 1792964901443
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "fixture: context",
+          "start": 1792964901445,
+          "stop": 1792964901445
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "fixture: addAllureTestHierarchy",
+          "start": 1792964901833,
+          "stop": 1792964901834
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "fixture: infoTestLog",
+          "start": 1792964901837,
+          "stop": 1792964901838
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1792964901431,
+      "stop": 1792964901840
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "chromium" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    {
+      "name": "package",
+      "value": "auth.forgotLoginInfo.negative.forgotLoginInfoNegative.spec.js"
+    },
+    {
+      "name": "titlePath",
+      "value": " > chromium > auth\\forgotLoginInfo\\negative\\forgotLoginInfoNegative.spec.js > Forgot login info negative tests"
+    },
+    { "name": "host", "value": "DESKTOP-1FMLK3Q" },
+    { "name": "thread", "value": "pid-21240-worker-0" },
+    { "name": "parentSuite" },
+    { "name": "suite" },
+    { "name": "subSuite", "value": "Forgot login info negative tests" },
+    { "name": "severity", "value": "normal" }
+  ],
+  "links": [],
+  "start": 1792964897190,
+  "testCaseId": "f27f67c517c6fb01ce650c1025cb4c45",
+  "fullName": "auth/forgotLoginInfo/negative/forgotLoginInfoNegative.spec.js:134:9",
+  "stop": 1792964901819
+}

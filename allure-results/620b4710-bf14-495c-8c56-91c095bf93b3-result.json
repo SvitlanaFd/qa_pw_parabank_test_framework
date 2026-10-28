@@ -1,0 +1,324 @@
+{
+  "uuid": "620b4710-bf14-495c-8c56-91c095bf93b3",
+  "name": "Sign in with empty password",
+  "historyId": "3c69e10b72182af0d25fe551d20c7dd5:5bd835b0d6b1d4ada3b9f0db936e82c8",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "fixture: infoTestLog",
+          "start": 1792965006045,
+          "stop": 1792965006046
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "fixture: addAllureTestHierarchy",
+          "start": 1792965006049,
+          "stop": 1792965006073
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "browser.newContext",
+              "start": 1792965006086,
+              "stop": 1792965006104
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "fixture: context",
+          "start": 1792965006075,
+          "stop": 1792965006126
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "browserContext.newPage",
+              "start": 1792965006136,
+              "stop": 1792965006396
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "fixture: page",
+          "start": 1792965006128,
+          "stop": 1792965006397
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "fixture: signInPage",
+          "start": 1792965006401,
+          "stop": 1792965006401
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1792965006029,
+      "stop": 1792965006402
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1792965006422,
+          "name": "page.goto(index.htm)",
+          "stop": 1792965007746
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1792965006409,
+      "name": "Open 'Sign In' page",
+      "stop": 1792965007748
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1792965007764,
+          "name": "locator.fill(input[name=\"username\"])",
+          "stop": 1792965007881
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1792965007753,
+      "name": "Fill the 'Username' field",
+      "stop": 1792965007882
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1792965007894,
+          "name": "locator.fill(input[name=\"password\"])",
+          "stop": 1792965007981
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1792965007886,
+      "name": "Fill the 'Password' field",
+      "stop": 1792965007982
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1792965007991,
+          "name": "locator.getByRole('button', { name: 'Log In' }).click",
+          "stop": 1792965008368
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1792965007984,
+      "name": "Click the 'Log In' button",
+      "stop": 1792965008368
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1792965008379,
+          "name": "expect.toContainText",
+          "stop": 1792965008597
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1792965008371,
+      "name": "Assert error message",
+      "stop": 1792965008597
+    },
+    {
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "trace",
+          "source": "afd130db-a9cf-431e-9194-bbd099583f9d-attachment.zip",
+          "type": "application/zip"
+        }
+      ],
+      "parameters": [],
+      "start": 1792965009231,
+      "name": "trace",
+      "stop": 1792965009231
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "fixture: signInPage",
+          "start": 1792965008602,
+          "stop": 1792965008603
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "fixture: page",
+          "start": 1792965008605,
+          "stop": 1792965008605
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "fixture: context",
+          "start": 1792965008606,
+          "stop": 1792965008606
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "fixture: addAllureTestHierarchy",
+          "start": 1792965008918,
+          "stop": 1792965008920
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "fixture: infoTestLog",
+          "start": 1792965008922,
+          "stop": 1792965008922
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1792965008600,
+      "stop": 1792965008924
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "chromium" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    {
+      "name": "package",
+      "value": "auth.signIn.negative.signInNegative.spec.js"
+    },
+    {
+      "name": "titlePath",
+      "value": " > chromium > auth\\signIn\\negative\\signInNegative.spec.js > Sign in negative tests"
+    },
+    { "name": "host", "value": "DESKTOP-1FMLK3Q" },
+    { "name": "thread", "value": "pid-21240-worker-0" },
+    { "name": "parentSuite" },
+    { "name": "suite" },
+    { "name": "subSuite", "value": "Sign in negative tests" },
+    { "name": "severity", "value": "normal" }
+  ],
+  "links": [],
+  "start": 1792965006022,
+  "testCaseId": "3c69e10b72182af0d25fe551d20c7dd5",
+  "fullName": "auth/signIn/negative/signInNegative.spec.js:35:9",
+  "stop": 1792965008884
+}

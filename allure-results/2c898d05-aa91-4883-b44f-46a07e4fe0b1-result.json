@@ -1,0 +1,571 @@
+{
+  "uuid": "2c898d05-aa91-4883-b44f-46a07e4fe0b1",
+  "name": "User cannot make bill payment with empty Phone Number field",
+  "historyId": "9f257ce37a1110e27bf8badb4f11f946:5bd835b0d6b1d4ada3b9f0db936e82c8",
+  "status": "failed",
+  "statusDetails": {
+    "message": "Error: Timed out 5000ms waiting for expect(locator).toBeVisible()\n\nLocator: getByText('Your account was created successfully. You are now logged in.')\nExpected: visible\nReceived: <element(s) not found>\nCall log:\n  - expect.toBeVisible with timeout 5000ms\n  - waiting for getByText('Your account was created successfully. You are now logged in.')\n",
+    "trace": "Error: Timed out 5000ms waiting for expect(locator).toBeVisible()\n\nLocator: getByText('Your account was created successfully. You are now logged in.')\nExpected: visible\nReceived: <element(s) not found>\nCall log:\n  - expect.toBeVisible with timeout 5000ms\n  - waiting for getByText('Your account was created successfully. You are now logged in.')\n\n    at D:\\mate\\qa_pw_parabank_test_framework\\src\\ui\\pages\\RegisterPage.js:126:55\n    at testStep (D:\\mate\\qa_pw_parabank_test_framework\\src\\common\\helpers\\pwHelpers.js:10:21)\n    at RegisterPage.step (D:\\mate\\qa_pw_parabank_test_framework\\src\\ui\\pages\\RegisterPage.js:41:26)\n    at RegisterPage.assertRegistrationSuccessMessageIsVisible (D:\\mate\\qa_pw_parabank_test_framework\\src\\ui\\pages\\RegisterPage.js:123:16)\n    at D:\\mate\\qa_pw_parabank_test_framework\\src\\ui\\actions\\auth\\registerUser.js:24:26\n    at testStep (D:\\mate\\qa_pw_parabank_test_framework\\src\\common\\helpers\\pwHelpers.js:10:10)\n    at registerUser (D:\\mate\\qa_pw_parabank_test_framework\\src\\ui\\actions\\auth\\registerUser.js:5:3)\n    at D:\\mate\\qa_pw_parabank_test_framework\\tests\\account\\billPay\\billPay.spec.js:121:3",
+    "actual": "<element(s) not found>",
+    "expected": "visible"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "failed",
+      "statusDetails": {
+        "message": "Error: Timed out 5000ms waiting for expect(locator).toBeVisible()\n\nLocator: getByText('Your account was created successfully. You are now logged in.')\nExpected: visible\nReceived: <element(s) not found>\nCall log:\n  - expect.toBeVisible with timeout 5000ms\n  - waiting for getByText('Your account was created successfully. You are now logged in.')\n",
+        "trace": "Error: Timed out 5000ms waiting for expect(locator).toBeVisible()\n\nLocator: getByText('Your account was created successfully. You are now logged in.')\nExpected: visible\nReceived: <element(s) not found>\nCall log:\n  - expect.toBeVisible with timeout 5000ms\n  - waiting for getByText('Your account was created successfully. You are now logged in.')\n\n    at D:\\mate\\qa_pw_parabank_test_framework\\src\\ui\\pages\\RegisterPage.js:126:55\n    at testStep (D:\\mate\\qa_pw_parabank_test_framework\\src\\common\\helpers\\pwHelpers.js:10:21)\n    at RegisterPage.step (D:\\mate\\qa_pw_parabank_test_framework\\src\\ui\\pages\\RegisterPage.js:41:26)\n    at RegisterPage.assertRegistrationSuccessMessageIsVisible (D:\\mate\\qa_pw_parabank_test_framework\\src\\ui\\pages\\RegisterPage.js:123:16)\n    at D:\\mate\\qa_pw_parabank_test_framework\\src\\ui\\actions\\auth\\registerUser.js:24:26\n    at testStep (D:\\mate\\qa_pw_parabank_test_framework\\src\\common\\helpers\\pwHelpers.js:10:10)\n    at registerUser (D:\\mate\\qa_pw_parabank_test_framework\\src\\ui\\actions\\auth\\registerUser.js:5:3)\n    at D:\\mate\\qa_pw_parabank_test_framework\\tests\\account\\billPay\\billPay.spec.js:121:3",
+        "actual": "<element(s) not found>",
+        "expected": "visible"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "failed",
+          "statusDetails": {
+            "message": "Error: Timed out 5000ms waiting for expect(locator).toBeVisible()\n\nLocator: getByText('Your account was created successfully. You are now logged in.')\nExpected: visible\nReceived: <element(s) not found>\nCall log:\n  - expect.toBeVisible with timeout 5000ms\n  - waiting for getByText('Your account was created successfully. You are now logged in.')\n",
+            "trace": "Error: Timed out 5000ms waiting for expect(locator).toBeVisible()\n\nLocator: getByText('Your account was created successfully. You are now logged in.')\nExpected: visible\nReceived: <element(s) not found>\nCall log:\n  - expect.toBeVisible with timeout 5000ms\n  - waiting for getByText('Your account was created successfully. You are now logged in.')\n\n    at D:\\mate\\qa_pw_parabank_test_framework\\src\\ui\\pages\\RegisterPage.js:126:55\n    at testStep (D:\\mate\\qa_pw_parabank_test_framework\\src\\common\\helpers\\pwHelpers.js:10:21)\n    at RegisterPage.step (D:\\mate\\qa_pw_parabank_test_framework\\src\\ui\\pages\\RegisterPage.js:41:26)\n    at RegisterPage.assertRegistrationSuccessMessageIsVisible (D:\\mate\\qa_pw_parabank_test_framework\\src\\ui\\pages\\RegisterPage.js:123:16)\n    at D:\\mate\\qa_pw_parabank_test_framework\\src\\ui\\actions\\auth\\registerUser.js:24:26\n    at testStep (D:\\mate\\qa_pw_parabank_test_framework\\src\\common\\helpers\\pwHelpers.js:10:10)\n    at registerUser (D:\\mate\\qa_pw_parabank_test_framework\\src\\ui\\actions\\auth\\registerUser.js:5:3)\n    at D:\\mate\\qa_pw_parabank_test_framework\\tests\\account\\billPay\\billPay.spec.js:121:3",
+            "actual": "<element(s) not found>",
+            "expected": "visible"
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "fixture: infoTestLog",
+              "start": 1792964640916,
+              "stop": 1792964640916
+            },
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "fixture: addAllureTestHierarchy",
+              "start": 1792964640916,
+              "stop": 1792964640920
+            },
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [
+                {
+                  "status": "passed",
+                  "statusDetails": {},
+                  "stage": "finished",
+                  "steps": [],
+                  "attachments": [],
+                  "parameters": [],
+                  "name": "browser.newContext",
+                  "start": 1792964640921,
+                  "stop": 1792964640925
+                },
+                {
+                  "status": "passed",
+                  "statusDetails": {},
+                  "stage": "finished",
+                  "steps": [],
+                  "attachments": [],
+                  "parameters": [],
+                  "name": "browserContext.newPage",
+                  "start": 1792964640930,
+                  "stop": 1792964641005
+                }
+              ],
+              "attachments": [],
+              "parameters": [],
+              "name": "fixture: pages",
+              "start": 1792964640921,
+              "stop": 1792964641006
+            },
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "fixture: user",
+              "start": 1792964641006,
+              "stop": 1792964641006
+            },
+            {
+              "status": "failed",
+              "statusDetails": {
+                "message": "Error: Timed out 5000ms waiting for expect(locator).toBeVisible()\n\nLocator: getByText('Your account was created successfully. You are now logged in.')\nExpected: visible\nReceived: <element(s) not found>\nCall log:\n  - expect.toBeVisible with timeout 5000ms\n  - waiting for getByText('Your account was created successfully. You are now logged in.')\n",
+                "trace": "Error: Timed out 5000ms waiting for expect(locator).toBeVisible()\n\nLocator: getByText('Your account was created successfully. You are now logged in.')\nExpected: visible\nReceived: <element(s) not found>\nCall log:\n  - expect.toBeVisible with timeout 5000ms\n  - waiting for getByText('Your account was created successfully. You are now logged in.')\n\n    at D:\\mate\\qa_pw_parabank_test_framework\\src\\ui\\pages\\RegisterPage.js:126:55\n    at testStep (D:\\mate\\qa_pw_parabank_test_framework\\src\\common\\helpers\\pwHelpers.js:10:21)\n    at RegisterPage.step (D:\\mate\\qa_pw_parabank_test_framework\\src\\ui\\pages\\RegisterPage.js:41:26)\n    at RegisterPage.assertRegistrationSuccessMessageIsVisible (D:\\mate\\qa_pw_parabank_test_framework\\src\\ui\\pages\\RegisterPage.js:123:16)\n    at D:\\mate\\qa_pw_parabank_test_framework\\src\\ui\\actions\\auth\\registerUser.js:24:26\n    at testStep (D:\\mate\\qa_pw_parabank_test_framework\\src\\common\\helpers\\pwHelpers.js:10:10)\n    at registerUser (D:\\mate\\qa_pw_parabank_test_framework\\src\\ui\\actions\\auth\\registerUser.js:5:3)\n    at D:\\mate\\qa_pw_parabank_test_framework\\tests\\account\\billPay\\billPay.spec.js:121:3",
+                "actual": "<element(s) not found>",
+                "expected": "visible"
+              },
+              "stage": "finished",
+              "steps": [
+                {
+                  "status": "passed",
+                  "statusDetails": {},
+                  "stage": "finished",
+                  "steps": [
+                    {
+                      "status": "passed",
+                      "statusDetails": {},
+                      "stage": "finished",
+                      "steps": [],
+                      "attachments": [],
+                      "parameters": [],
+                      "name": "page.goto(register.htm)",
+                      "start": 1792964641010,
+                      "stop": 1792964642310
+                    }
+                  ],
+                  "attachments": [],
+                  "parameters": [],
+                  "name": "Open 'Register' page",
+                  "start": 1792964641008,
+                  "stop": 1792964642310
+                },
+                {
+                  "status": "passed",
+                  "statusDetails": {},
+                  "stage": "finished",
+                  "steps": [
+                    {
+                      "status": "passed",
+                      "statusDetails": {},
+                      "stage": "finished",
+                      "steps": [],
+                      "attachments": [],
+                      "parameters": [],
+                      "name": "locator.fill([id=\"customer.firstName\"])",
+                      "start": 1792964642313,
+                      "stop": 1792964642362
+                    }
+                  ],
+                  "attachments": [],
+                  "parameters": [],
+                  "name": "Fill the 'First Name' field",
+                  "start": 1792964642311,
+                  "stop": 1792964642363
+                },
+                {
+                  "status": "passed",
+                  "statusDetails": {},
+                  "stage": "finished",
+                  "steps": [
+                    {
+                      "status": "passed",
+                      "statusDetails": {},
+                      "stage": "finished",
+                      "steps": [],
+                      "attachments": [],
+                      "parameters": [],
+                      "name": "locator.fill([id=\"customer.lastName\"])",
+                      "start": 1792964642366,
+                      "stop": 1792964642386
+                    }
+                  ],
+                  "attachments": [],
+                  "parameters": [],
+                  "name": "Fill the 'Last Name' field",
+                  "start": 1792964642363,
+                  "stop": 1792964642386
+                },
+                {
+                  "status": "passed",
+                  "statusDetails": {},
+                  "stage": "finished",
+                  "steps": [
+                    {
+                      "status": "passed",
+                      "statusDetails": {},
+                      "stage": "finished",
+                      "steps": [],
+                      "attachments": [],
+                      "parameters": [],
+                      "name": "locator.fill([id=\"customer.address.street\"])",
+                      "start": 1792964642389,
+                      "stop": 1792964642410
+                    }
+                  ],
+                  "attachments": [],
+                  "parameters": [],
+                  "name": "Fill the 'Address' field",
+                  "start": 1792964642387,
+                  "stop": 1792964642410
+                },
+                {
+                  "status": "passed",
+                  "statusDetails": {},
+                  "stage": "finished",
+                  "steps": [
+                    {
+                      "status": "passed",
+                      "statusDetails": {},
+                      "stage": "finished",
+                      "steps": [],
+                      "attachments": [],
+                      "parameters": [],
+                      "name": "locator.fill([id=\"customer.address.city\"])",
+                      "start": 1792964642412,
+                      "stop": 1792964642433
+                    }
+                  ],
+                  "attachments": [],
+                  "parameters": [],
+                  "name": "Fill the 'City' field",
+                  "start": 1792964642410,
+                  "stop": 1792964642434
+                },
+                {
+                  "status": "passed",
+                  "statusDetails": {},
+                  "stage": "finished",
+                  "steps": [
+                    {
+                      "status": "passed",
+                      "statusDetails": {},
+                      "stage": "finished",
+                      "steps": [],
+                      "attachments": [],
+                      "parameters": [],
+                      "name": "locator.fill([id=\"customer.address.state\"])",
+                      "start": 1792964642436,
+                      "stop": 1792964642453
+                    }
+                  ],
+                  "attachments": [],
+                  "parameters": [],
+                  "name": "Fill the 'State' field",
+                  "start": 1792964642435,
+                  "stop": 1792964642453
+                },
+                {
+                  "status": "passed",
+                  "statusDetails": {},
+                  "stage": "finished",
+                  "steps": [
+                    {
+                      "status": "passed",
+                      "statusDetails": {},
+                      "stage": "finished",
+                      "steps": [],
+                      "attachments": [],
+                      "parameters": [],
+                      "name": "locator.fill([id=\"customer.address.zipCode\"])",
+                      "start": 1792964642457,
+                      "stop": 1792964642473
+                    }
+                  ],
+                  "attachments": [],
+                  "parameters": [],
+                  "name": "Fill the 'Zip Code' field",
+                  "start": 1792964642454,
+                  "stop": 1792964642474
+                },
+                {
+                  "status": "passed",
+                  "statusDetails": {},
+                  "stage": "finished",
+                  "steps": [
+                    {
+                      "status": "passed",
+                      "statusDetails": {},
+                      "stage": "finished",
+                      "steps": [],
+                      "attachments": [],
+                      "parameters": [],
+                      "name": "locator.fill([id=\"customer.phoneNumber\"])",
+                      "start": 1792964642476,
+                      "stop": 1792964642500
+                    }
+                  ],
+                  "attachments": [],
+                  "parameters": [],
+                  "name": "Fill the 'Phone' field",
+                  "start": 1792964642474,
+                  "stop": 1792964642500
+                },
+                {
+                  "status": "passed",
+                  "statusDetails": {},
+                  "stage": "finished",
+                  "steps": [
+                    {
+                      "status": "passed",
+                      "statusDetails": {},
+                      "stage": "finished",
+                      "steps": [],
+                      "attachments": [],
+                      "parameters": [],
+                      "name": "locator.fill([id=\"customer.ssn\"])",
+                      "start": 1792964642502,
+                      "stop": 1792964642521
+                    }
+                  ],
+                  "attachments": [],
+                  "parameters": [],
+                  "name": "Fill the 'SSN' field",
+                  "start": 1792964642500,
+                  "stop": 1792964642521
+                },
+                {
+                  "status": "passed",
+                  "statusDetails": {},
+                  "stage": "finished",
+                  "steps": [
+                    {
+                      "status": "passed",
+                      "statusDetails": {},
+                      "stage": "finished",
+                      "steps": [],
+                      "attachments": [],
+                      "parameters": [],
+                      "name": "locator.fill([id=\"customer.username\"])",
+                      "start": 1792964642523,
+                      "stop": 1792964642541
+                    }
+                  ],
+                  "attachments": [],
+                  "parameters": [],
+                  "name": "Fill the 'Username' field",
+                  "start": 1792964642522,
+                  "stop": 1792964642541
+                },
+                {
+                  "status": "passed",
+                  "statusDetails": {},
+                  "stage": "finished",
+                  "steps": [
+                    {
+                      "status": "passed",
+                      "statusDetails": {},
+                      "stage": "finished",
+                      "steps": [],
+                      "attachments": [],
+                      "parameters": [],
+                      "name": "locator.fill([id=\"customer.password\"])",
+                      "start": 1792964642543,
+                      "stop": 1792964642562
+                    }
+                  ],
+                  "attachments": [],
+                  "parameters": [],
+                  "name": "Fill the 'Password' field",
+                  "start": 1792964642542,
+                  "stop": 1792964642562
+                },
+                {
+                  "status": "passed",
+                  "statusDetails": {},
+                  "stage": "finished",
+                  "steps": [
+                    {
+                      "status": "passed",
+                      "statusDetails": {},
+                      "stage": "finished",
+                      "steps": [],
+                      "attachments": [],
+                      "parameters": [],
+                      "name": "locator.fill([id=\"repeatedPassword\"])",
+                      "start": 1792964642564,
+                      "stop": 1792964642580
+                    }
+                  ],
+                  "attachments": [],
+                  "parameters": [],
+                  "name": "Fill the 'Confirm' field",
+                  "start": 1792964642563,
+                  "stop": 1792964642581
+                },
+                {
+                  "status": "passed",
+                  "statusDetails": {},
+                  "stage": "finished",
+                  "steps": [
+                    {
+                      "status": "passed",
+                      "statusDetails": {},
+                      "stage": "finished",
+                      "steps": [],
+                      "attachments": [],
+                      "parameters": [],
+                      "name": "locator.getByRole('button', { name: 'Register' }).click",
+                      "start": 1792964642582,
+                      "stop": 1792964642861
+                    }
+                  ],
+                  "attachments": [],
+                  "parameters": [],
+                  "name": "Click the 'Register' button",
+                  "start": 1792964642581,
+                  "stop": 1792964642862
+                },
+                {
+                  "status": "failed",
+                  "statusDetails": {
+                    "message": "Error: Timed out 5000ms waiting for expect(locator).toBeVisible()\n\nLocator: getByText('Your account was created successfully. You are now logged in.')\nExpected: visible\nReceived: <element(s) not found>\nCall log:\n  - expect.toBeVisible with timeout 5000ms\n  - waiting for getByText('Your account was created successfully. You are now logged in.')\n",
+                    "trace": "Error: Timed out 5000ms waiting for expect(locator).toBeVisible()\n\nLocator: getByText('Your account was created successfully. You are now logged in.')\nExpected: visible\nReceived: <element(s) not found>\nCall log:\n  - expect.toBeVisible with timeout 5000ms\n  - waiting for getByText('Your account was created successfully. You are now logged in.')\n\n    at D:\\mate\\qa_pw_parabank_test_framework\\src\\ui\\pages\\RegisterPage.js:126:55\n    at testStep (D:\\mate\\qa_pw_parabank_test_framework\\src\\common\\helpers\\pwHelpers.js:10:21)\n    at RegisterPage.step (D:\\mate\\qa_pw_parabank_test_framework\\src\\ui\\pages\\RegisterPage.js:41:26)\n    at RegisterPage.assertRegistrationSuccessMessageIsVisible (D:\\mate\\qa_pw_parabank_test_framework\\src\\ui\\pages\\RegisterPage.js:123:16)\n    at D:\\mate\\qa_pw_parabank_test_framework\\src\\ui\\actions\\auth\\registerUser.js:24:26\n    at testStep (D:\\mate\\qa_pw_parabank_test_framework\\src\\common\\helpers\\pwHelpers.js:10:10)\n    at registerUser (D:\\mate\\qa_pw_parabank_test_framework\\src\\ui\\actions\\auth\\registerUser.js:5:3)\n    at D:\\mate\\qa_pw_parabank_test_framework\\tests\\account\\billPay\\billPay.spec.js:121:3",
+                    "actual": "<element(s) not found>",
+                    "expected": "visible"
+                  },
+                  "stage": "finished",
+                  "steps": [
+                    {
+                      "status": "failed",
+                      "statusDetails": {
+                        "message": "Error: Timed out 5000ms waiting for expect(locator).toBeVisible()\n\nLocator: getByText('Your account was created successfully. You are now logged in.')\nExpected: visible\nReceived: <element(s) not found>\nCall log:\n  - expect.toBeVisible with timeout 5000ms\n  - waiting for getByText('Your account was created successfully. You are now logged in.')\n",
+                        "trace": "Error: Timed out 5000ms waiting for expect(locator).toBeVisible()\n\nLocator: getByText('Your account was created successfully. You are now logged in.')\nExpected: visible\nReceived: <element(s) not found>\nCall log:\n  - expect.toBeVisible with timeout 5000ms\n  - waiting for getByText('Your account was created successfully. You are now logged in.')\n\n    at D:\\mate\\qa_pw_parabank_test_framework\\src\\ui\\pages\\RegisterPage.js:126:55\n    at testStep (D:\\mate\\qa_pw_parabank_test_framework\\src\\common\\helpers\\pwHelpers.js:10:21)\n    at RegisterPage.step (D:\\mate\\qa_pw_parabank_test_framework\\src\\ui\\pages\\RegisterPage.js:41:26)\n    at RegisterPage.assertRegistrationSuccessMessageIsVisible (D:\\mate\\qa_pw_parabank_test_framework\\src\\ui\\pages\\RegisterPage.js:123:16)\n    at D:\\mate\\qa_pw_parabank_test_framework\\src\\ui\\actions\\auth\\registerUser.js:24:26\n    at testStep (D:\\mate\\qa_pw_parabank_test_framework\\src\\common\\helpers\\pwHelpers.js:10:10)\n    at registerUser (D:\\mate\\qa_pw_parabank_test_framework\\src\\ui\\actions\\auth\\registerUser.js:5:3)\n    at D:\\mate\\qa_pw_parabank_test_framework\\tests\\account\\billPay\\billPay.spec.js:121:3",
+                        "actual": "<element(s) not found>",
+                        "expected": "visible"
+                      },
+                      "stage": "finished",
+                      "steps": [],
+                      "attachments": [],
+                      "parameters": [],
+                      "name": "expect.toBeVisible",
+                      "start": 1792964642866,
+                      "stop": 1792964649883
+                    }
+                  ],
+                  "attachments": [],
+                  "parameters": [],
+                  "name": "Assert registration success message is visible",
+                  "start": 1792964642863,
+                  "stop": 1792964649894
+                }
+              ],
+              "attachments": [],
+              "parameters": [],
+              "name": "Register user",
+              "start": 1792964641007,
+              "stop": 1792964649905
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "beforeEach hook",
+          "start": 1792964640914,
+          "stop": 1792964649912
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1792964640914,
+      "stop": 1792964649924
+    },
+    {
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "trace",
+          "source": "187ebd02-c714-42a8-b309-64d7ed43b705-attachment.zip",
+          "type": "application/zip"
+        }
+      ],
+      "parameters": [],
+      "start": 1792964655213,
+      "name": "trace",
+      "stop": 1792964655213
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "fixture: user",
+          "start": 1792964649941,
+          "stop": 1792964649942
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "browserContext.close",
+              "start": 1792964651219,
+              "stop": 1792964651254
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "fixture: pages",
+          "start": 1792964649946,
+          "stop": 1792964651255
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "fixture: addAllureTestHierarchy",
+          "start": 1792964651258,
+          "stop": 1792964651260
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "fixture: infoTestLog",
+          "start": 1792964651264,
+          "stop": 1792964651264
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1792964649931,
+      "stop": 1792964651267
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "chromium" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "account.billPay.billPay.spec.js" },
+    {
+      "name": "titlePath",
+      "value": " > chromium > account\\billPay\\billPay.spec.js > Bill Payment tests"
+    },
+    { "name": "host", "value": "DESKTOP-1FMLK3Q" },
+    { "name": "thread", "value": "pid-21240-worker-0" },
+    { "name": "parentSuite" },
+    { "name": "suite" },
+    { "name": "subSuite", "value": "Bill Payment tests" },
+    { "name": "severity", "value": "normal" }
+  ],
+  "links": [],
+  "start": 1792964640921,
+  "testCaseId": "9f257ce37a1110e27bf8badb4f11f946",
+  "fullName": "account/billPay/billPay.spec.js:222:9",
+  "stop": 1792964651228
+}
